@@ -1,0 +1,99 @@
+ERC22_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  Revolución5_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución5
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución8_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución8
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución9_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución9
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución10_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución10
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución11_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución11
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución12_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución12
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución13_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución13
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Bola14_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Bola14
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Bola15_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Bola15
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Bola16_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Bola16
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Bola17_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Bola17
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución18_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución18
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución19_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución19
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución22_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución22
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución23_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución23
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución25_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución25
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución26_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución26
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución28_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución28
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución29_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución29
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución30_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución30
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución31_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución31
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución32_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución32
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolución33_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolución33
+    pid: {p: 100.0, i: 0.01, d: 10.0}

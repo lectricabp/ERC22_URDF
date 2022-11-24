@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find ERC22_description)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="ERC22" args="Revolución5_position_controller Revolución8_position_controller Revolución9_position_controller Revolución10_position_controller Revolución11_position_controller Revolución12_position_controller Revolución13_position_controller Bola14_position_controller Bola15_position_controller Bola16_position_controller Bola17_position_controller Revolución18_position_controller Revolución19_position_controller Revolución22_position_controller Revolución23_position_controller Revolución25_position_controller Revolución26_position_controller Revolución28_position_controller Revolución29_position_controller Revolución30_position_controller Revolución31_position_controller Revolución32_position_controller Revolución33_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/ERC22/joint_states"/>
+</node>
+
+</launch>
