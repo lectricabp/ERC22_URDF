@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ERC22_description</name>
+  <name>ERC22_URDF_description</name>
   <version>0.0.0</version>
-<description>The ERC22_description package</description>
+<description>The ERC22_URDF_description package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
