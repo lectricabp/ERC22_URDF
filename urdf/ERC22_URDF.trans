@@ -1,133 +1,133 @@
 <?xml version="1.0" ?>
 <robot name="ERC22_URDF" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<transmission name="Revolución34_tran">
+<transmission name="Revolucion34_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución34">
+  <joint name="Revolucion34">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución34_actr">
+  <actuator name="Revolucion34_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución35_tran">
+<transmission name="Revolucion35_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución35">
+  <joint name="Revolucion35">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución35_actr">
+  <actuator name="Revolucion35_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución36_tran">
+<transmission name="Revolucion36_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución36">
+  <joint name="Revolucion36">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución36_actr">
+  <actuator name="Revolucion36_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución37_tran">
+<transmission name="Revolucion37_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución37">
+  <joint name="Revolucion37">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución37_actr">
+  <actuator name="Revolucion37_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución38_tran">
+<transmission name="Revolucion38_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución38">
+  <joint name="Revolucion38">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución38_actr">
+  <actuator name="Revolucion38_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución39_tran">
+<transmission name="Revolucion39_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución39">
+  <joint name="Revolucion39">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución39_actr">
+  <actuator name="Revolucion39_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución40_tran">
+<transmission name="Revolucion40_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución40">
+  <joint name="Revolucion40">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución40_actr">
+  <actuator name="Revolucion40_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución41_tran">
+<transmission name="Revolucion41_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución41">
+  <joint name="Revolucion41">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución41_actr">
+  <actuator name="Revolucion41_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución42_tran">
+<transmission name="Revolucion42_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución42">
+  <joint name="Revolucion42">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución42_actr">
+  <actuator name="Revolucion42_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución43_tran">
+<transmission name="Revolucion43_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución43">
+  <joint name="Revolucion43">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución43_actr">
+  <actuator name="Revolucion43_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución44_tran">
+<transmission name="Revolucion44_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución44">
+  <joint name="Revolucion44">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución44_actr">
+  <actuator name="Revolucion44_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolución45_tran">
+<transmission name="Revolucion45_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolución45">
+  <joint name="Revolucion45">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolución45_actr">
+  <actuator name="Revolucion45_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>

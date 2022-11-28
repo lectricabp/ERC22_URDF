@@ -1,7 +1,7 @@
 <launch>
 
 <rosparam file="$(find ERC22_URDF_description)/launch/controller.yaml" command="load"/>
-<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="ERC22_URDF" args="Revolución34_position_controller Revolución35_position_controller Revolución36_position_controller Revolución37_position_controller Revolución38_position_controller Revolución39_position_controller Revolución40_position_controller Revolución41_position_controller Revolución42_position_controller Revolución43_position_controller Revolución44_position_controller Revolución45_position_controller joint_state_controller "/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="ERC22_URDF" args="Revolucion34_position_controller Revolucion35_position_controller Revolucion36_position_controller Revolucion37_position_controller Revolucion38_position_controller Revolucion39_position_controller Revolucion40_position_controller Revolucion41_position_controller Revolucion42_position_controller Revolucion43_position_controller Revolucion44_position_controller Revolucion45_position_controller joint_state_controller "/>
 <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
   <remap from="/joint_states" to="/ERC22_URDF/joint_states"/>
 </node>
