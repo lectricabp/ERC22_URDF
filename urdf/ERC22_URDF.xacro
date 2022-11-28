@@ -6,9 +6,9 @@
 <xacro:include filename="$(find ERC22_URDF_description)/urdf/ERC22_URDF.gazebo" />
 <link name="base_link">
   <inertial>
-    <origin xyz="0.009257442272988727 0.0008928693179032305 0.4506338283968874" rpy="0 0 0"/>
-    <mass value="1.7296802386297885"/>
-    <inertia ixx="0.122562" iyy="0.09308" izz="0.197435" ixy="7.2e-05" iyz="0.000587" ixz="0.006199"/>
+    <origin xyz="0.009439051177251773 0.0008928693179034862 0.4515443268163816" rpy="0 0 0"/>
+    <mass value="1.7296802386297903"/>
+    <inertia ixx="0.122252" iyy="0.093075" izz="0.197741" ixy="-4.9e-05" iyz="2.2e-05" ixz="0.005471"/>
   </inertial>
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -48,9 +48,9 @@
 
 <link name="Left_leg_double_1">
   <inertial>
-    <origin xyz="-0.022088532350106327 -0.06278452284012143 -0.07367590613643721" rpy="0 0 0"/>
-    <mass value="0.1583068780205665"/>
-    <inertia ixx="0.000845" iyy="0.003257" izz="0.002543" ixy="-0.000166" iyz="-2.5e-05" ixz="0.000841"/>
+    <origin xyz="-0.015583210905782074 -0.06278452280466362 -0.07532072866040473" rpy="0 0 0"/>
+    <mass value="0.15830687785841724"/>
+    <inertia ixx="0.000712" iyy="0.003257" izz="0.002676" ixy="-0.000163" iyz="-3.9e-05" ixz="0.000681"/>
   </inertial>
   <visual>
     <origin xyz="0.25259 0.310658 -0.447478" rpy="0 0 0"/>
@@ -69,19 +69,19 @@
 
 <link name="WLB_supp_1">
   <inertial>
-    <origin xyz="-0.0028618909710108054 0.03188196836487278 -0.06602065383277494" rpy="0 0 0"/>
+    <origin xyz="0.002903499921163455 0.03188196836487295 -0.06601877471300915" rpy="0 0 0"/>
     <mass value="0.05726725763420208"/>
-    <inertia ixx="0.000209" iyy="0.000168" izz="5.9e-05" ixy="2e-06" iyz="5.6e-05" ixz="-7e-06"/>
+    <inertia ixx="0.000209" iyy="0.000168" izz="5.9e-05" ixy="-3e-06" iyz="5.6e-05" ixz="6e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.432452 0.392158 -0.376754" rpy="0 0 0"/>
+    <origin xyz="0.425604 0.392158 -0.361347" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WLB_supp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.432452 0.392158 -0.376754" rpy="0 0 0"/>
+    <origin xyz="0.425604 0.392158 -0.361347" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WLB_supp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -90,19 +90,19 @@
 
 <link name="WLB_1">
   <inertial>
-    <origin xyz="-0.00015756056275473274 -0.048534670780080114 6.7474958049262845e-06" rpy="0 0 0"/>
+    <origin xyz="-0.000157436619810436 -0.04853467078007917 -7.357831886489752e-06" rpy="0 0 0"/>
     <mass value="0.821177966951147"/>
-    <inertia ixx="0.002537" iyy="0.004162" izz="0.002536" ixy="6e-06" iyz="-0.0" ixz="0.0"/>
+    <inertia ixx="0.002537" iyy="0.004162" izz="0.002536" ixy="6e-06" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.439051 0.373675 -0.218892" rpy="0 0 0"/>
+    <origin xyz="0.418419 0.373675 -0.203511" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WLB_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.439051 0.373675 -0.218892" rpy="0 0 0"/>
+    <origin xyz="0.418419 0.373675 -0.203511" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WLB_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -111,19 +111,19 @@
 
 <link name="WLM_1">
   <inertial>
-    <origin xyz="-4.7183024518004935e-07 -0.05483339443238905 8.441033064188197e-08" rpy="0 0 0"/>
+    <origin xyz="-9.162353946969015e-07 -0.04483339443239004 -7.236476196326169e-07" rpy="0 0 0"/>
     <mass value="0.8017382692848779"/>
     <inertia ixx="0.002476" iyy="0.004159" izz="0.002476" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.039463 0.380158 -0.191263" rpy="0 0 0"/>
+    <origin xyz="0.017943 0.380158 -0.210814" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WLM_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.039463 0.380158 -0.191263" rpy="0 0 0"/>
+    <origin xyz="0.017943 0.380158 -0.210814" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WLM_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -132,7 +132,7 @@
 
 <link name="WLF_1">
   <inertial>
-    <origin xyz="0.00034773001940091586 -0.048246876176874454 7.974817149869473e-06" rpy="0 0 0"/>
+    <origin xyz="0.0002756316511097756 -0.03824713622289272 6.33834755653373e-06" rpy="0 0 0"/>
     <mass value="0.8211285553800025"/>
     <inertia ixx="0.002536" iyy="0.004162" izz="0.002535" ixy="-1.2e-05" iyz="-0.0" ixz="-0.0"/>
   </inertial>
@@ -153,19 +153,19 @@
 
 <link name="WRF_supp_1">
   <inertial>
-    <origin xyz="-0.0039164324700371456 -0.03784426596898666 -0.09642528008138904" rpy="0 0 0"/>
+    <origin xyz="0.0016416095063517266 -0.037844265968987045 -0.0964909033672866" rpy="0 0 0"/>
     <mass value="0.06594197827899752"/>
-    <inertia ixx="0.000199" iyy="0.000176" izz="3.9e-05" ixy="0.0" iyz="3e-06" ixz="-6e-06"/>
+    <inertia ixx="0.000199" iyy="0.000176" izz="3.9e-05" ixy="-0.0" iyz="3e-06" ixz="3e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.387615 -0.386841 -0.342233" rpy="0 0 0"/>
+    <origin xyz="-0.393337 -0.386841 -0.36517" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRF_supp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.387615 -0.386841 -0.342233" rpy="0 0 0"/>
+    <origin xyz="-0.393337 -0.386841 -0.36517" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRF_supp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -174,19 +174,19 @@
 
 <link name="WRB_supp_1">
   <inertial>
-    <origin xyz="-0.0026647858576610006 -0.031841488157176856 -0.06644626947791427" rpy="0 0 0"/>
+    <origin xyz="0.00278870991833563 -0.031841488157177744 -0.06644057204157627" rpy="0 0 0"/>
     <mass value="0.05751878988929576"/>
-    <inertia ixx="0.000211" iyy="0.000171" izz="5.9e-05" ixy="-2e-06" iyz="-5.6e-05" ixz="-7e-06"/>
+    <inertia ixx="0.000211" iyy="0.000171" izz="5.9e-05" ixy="3e-06" iyz="-5.6e-05" ixz="6e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.431923 -0.396591 -0.39006" rpy="0 0 0"/>
+    <origin xyz="0.425538 -0.396591 -0.36149" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRB_supp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.431923 -0.396591 -0.39006" rpy="0 0 0"/>
+    <origin xyz="0.425538 -0.396591 -0.36149" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRB_supp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -195,19 +195,19 @@
 
 <link name="WRF_1">
   <inertial>
-    <origin xyz="0.0002223637265622025 0.0308564189141301 -7.933962252154592e-06" rpy="0 0 0"/>
+    <origin xyz="0.00022243797779680774 0.030856418914129602 5.266976624562769e-06" rpy="0 0 0"/>
     <mass value="0.7923140233383783"/>
-    <inertia ixx="0.002447" iyy="0.004158" izz="0.002447" ixy="1.2e-05" iyz="-0.0" ixz="-0.0"/>
+    <inertia ixx="0.002447" iyy="0.004158" izz="0.002447" ixy="1.2e-05" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.382481 -0.375303 -0.202327" rpy="0 0 0"/>
+    <origin xyz="-0.396266 -0.375303 -0.2252" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRF_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.382481 -0.375303 -0.202327" rpy="0 0 0"/>
+    <origin xyz="-0.396266 -0.375303 -0.2252" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRF_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -216,19 +216,19 @@
 
 <link name="WRM_1">
   <inertial>
-    <origin xyz="-2.0474170407680514e-07 0.044214404458255196 -3.438441350256394e-07" rpy="0 0 0"/>
+    <origin xyz="-4.796690451780439e-07 0.04421440445825542 -3.055120773864939e-07" rpy="0 0 0"/>
     <mass value="0.8108718866431287"/>
     <inertia ixx="0.002505" iyy="0.004161" izz="0.002505" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.037814 -0.384591 -0.20696" rpy="0 0 0"/>
+    <origin xyz="0.017751 -0.384591 -0.211299" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRM_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.037814 -0.384591 -0.20696" rpy="0 0 0"/>
+    <origin xyz="0.017751 -0.384591 -0.211299" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRM_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -237,19 +237,19 @@
 
 <link name="WRB_1">
   <inertial>
-    <origin xyz="-1.0734998551753527e-06 0.04853448757279427 -5.987417125985495e-08" rpy="0 0 0"/>
+    <origin xyz="-1.0298475141001795e-06 0.04853448757279211 4.442527895276438e-07" rpy="0 0 0"/>
     <mass value="0.8211769381894314"/>
     <inertia ixx="0.002537" iyy="0.004163" izz="0.002537" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.437622 -0.378107 -0.232163" rpy="0 0 0"/>
+    <origin xyz="0.41828 -0.378107 -0.203657" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRB_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.437622 -0.378107 -0.232163" rpy="0 0 0"/>
+    <origin xyz="0.41828 -0.378107 -0.203657" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/WRB_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -258,19 +258,19 @@
 
 <link name="Right_leg_double_1">
   <inertial>
-    <origin xyz="-0.021587038190466257 0.06338178542499212 -0.07362422302932764" rpy="0 0 0"/>
-    <mass value="0.15870353264297354"/>
-    <inertia ixx="0.000838" iyy="0.00326" izz="0.002554" ixy="0.000166" iyz="2.8e-05" ixz="0.00083"/>
+    <origin xyz="-0.01841993942514597 0.06805532100441675 -0.08940771566700395" rpy="0 0 0"/>
+    <mass value="0.1333867163635017"/>
+    <inertia ixx="0.000513" iyy="0.00308" izz="0.00264" ixy="0.000152" iyz="-1.5e-05" ixz="0.000714"/>
   </inertial>
   <visual>
-    <origin xyz="0.252493 -0.314341 -0.461875" rpy="0 0 0"/>
+    <origin xyz="0.252596 -0.314341 -0.447766" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/Right_leg_double_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.252493 -0.314341 -0.461875" rpy="0 0 0"/>
+    <origin xyz="0.252596 -0.314341 -0.447766" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://ERC22_URDF_description/meshes/Right_leg_double_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -292,21 +292,21 @@
 </joint>
 
 <joint name="Revolución36" type="continuous">
-  <origin xyz="-0.179862 -0.0815 -0.070724" rpy="0 0 0"/>
+  <origin xyz="-0.173014 -0.0815 -0.086131" rpy="0 0 0"/>
   <parent link="Left_leg_double_1"/>
   <child link="WLB_supp_1"/>
-  <axis xyz="-0.042143 0.0 -0.999112"/>
+  <axis xyz="0.045096 0.0 -0.998983"/>
 </joint>
 
 <joint name="Revolución37" type="continuous">
-  <origin xyz="-0.006599 0.018483 -0.157862" rpy="0 0 0"/>
+  <origin xyz="0.007185 0.018483 -0.157836" rpy="0 0 0"/>
   <parent link="WLB_supp_1"/>
   <child link="WLB_1"/>
-  <axis xyz="-0.003219 -0.999995 0.000136"/>
+  <axis xyz="-0.003219 -0.999995 -0.000145"/>
 </joint>
 
 <joint name="Revolución38" type="continuous">
-  <origin xyz="0.213127 -0.0695 -0.256215" rpy="0 0 0"/>
+  <origin xyz="0.234647 -0.0695 -0.236664" rpy="0 0 0"/>
   <parent link="Left_leg_double_1"/>
   <child link="WLM_1"/>
   <axis xyz="-0.0 1.0 0.0"/>
@@ -320,42 +320,42 @@
 </joint>
 
 <joint name="Revolución40" type="continuous">
-  <origin xyz="0.387615 0.386841 0.342233" rpy="0 0 0"/>
+  <origin xyz="0.393337 0.386841 0.36517" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="WRF_supp_1"/>
-  <axis xyz="-0.036072 -0.0 -0.999349"/>
+  <axis xyz="0.021515 -0.0 -0.999769"/>
 </joint>
 
 <joint name="Revolución41" type="continuous">
-  <origin xyz="-0.17943 0.08225 -0.071815" rpy="0 0 0"/>
+  <origin xyz="-0.172942 0.08225 -0.086276" rpy="0 0 0"/>
   <parent link="Right_leg_double_1"/>
   <child link="WRB_supp_1"/>
-  <axis xyz="0.036072 0.0 0.999349"/>
+  <axis xyz="-0.045935 0.0 0.998944"/>
 </joint>
 
 <joint name="Revolución42" type="continuous">
-  <origin xyz="-0.005134 -0.011538 -0.139906" rpy="0 0 0"/>
+  <origin xyz="0.002929 -0.011538 -0.13997" rpy="0 0 0"/>
   <parent link="WRF_supp_1"/>
   <child link="WRF_1"/>
-  <axis xyz="-0.007207 -0.999974 0.00026"/>
+  <axis xyz="-0.00721 -0.999974 -0.000155"/>
 </joint>
 
 <joint name="Revolución43" type="continuous">
-  <origin xyz="0.214679 0.07025 -0.254915" rpy="0 0 0"/>
+  <origin xyz="0.234845 0.07025 -0.236467" rpy="0 0 0"/>
   <parent link="Right_leg_double_1"/>
   <child link="WRM_1"/>
   <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
 <joint name="Revolución44" type="continuous">
-  <origin xyz="-0.005699 -0.018484 -0.157897" rpy="0 0 0"/>
+  <origin xyz="0.007258 -0.018484 -0.157833" rpy="0 0 0"/>
   <parent link="WRB_supp_1"/>
   <child link="WRB_1"/>
   <axis xyz="-0.0 -1.0 0.0"/>
 </joint>
 
 <joint name="Revolución45" type="continuous">
-  <origin xyz="-0.252493 0.314341 0.461875" rpy="0 0 0"/>
+  <origin xyz="-0.252596 0.314341 0.447766" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="Right_leg_double_1"/>
   <axis xyz="0.0 1.0 -0.0"/>
