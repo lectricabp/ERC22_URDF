@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find ERC22_URDF_description)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="ERC22_URDF" args="S_LF_position_controller L_DS_position_controller S_LB_position_controller W_LB_position_controller W_LM_position_controller W_LF_position_controller S_RF_position_controller S_RB_position_controller W_RF_position_controller W_RM_position_controller W_RB_position_controller R_DS_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/ERC22_URDF/joint_states"/>
+</node>
+
+</launch>
