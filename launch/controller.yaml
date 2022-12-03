@@ -5,51 +5,51 @@ ERC22_URDF_controller:
     publish_rate: 50
 
   # Position Controllers --------------------------------------
-  Revolución34_position_controller:
+  S_LF_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución34
+    joint: S_LF
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución35_position_controller:
+  L_DS_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución35
+    joint: L_DS
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución36_position_controller:
+  S_LB_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución36
+    joint: S_LB
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución37_position_controller:
+  W_LB_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución37
+    joint: W_LB
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución38_position_controller:
+  W_LM_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución38
+    joint: W_LM
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución39_position_controller:
+  W_LF_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución39
+    joint: W_LF
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución40_position_controller:
+  S_RF_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución40
+    joint: S_RF
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución41_position_controller:
+  S_RB_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución41
+    joint: S_RB
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución42_position_controller:
+  W_RF_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución42
+    joint: W_RF
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución43_position_controller:
+  W_RM_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución43
+    joint: W_RM
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución44_position_controller:
+  W_RB_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución44
+    joint: W_RB
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolución45_position_controller:
+  R_DS_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolución45
+    joint: R_DS
     pid: {p: 100.0, i: 0.01, d: 10.0}
