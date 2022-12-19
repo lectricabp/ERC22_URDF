@@ -4,6 +4,7 @@
 <xacro:include filename="$(find ERC22_URDF_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find ERC22_URDF_description)/urdf/ERC22_URDF.trans" />
 <xacro:include filename="$(find ERC22_URDF_description)/urdf/ERC22_URDF.gazebo" />
+
 <link name="base_link">
   <inertial>
     <origin xyz="0.009312479330910419 0.0008928693179026247 0.4508429285266153" rpy="0 0 0"/>
@@ -277,6 +278,49 @@
   </collision>
 </link>
 
+  <!-- Camera -->
+<link name="camera_link_left">
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+  <box size="0.05 0.05 0.05"/>
+    </geometry>
+  </collision>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+  <box size="0.05 0.05 0.05"/>
+    </geometry>
+    <material name="red"/>
+  </visual>
+  <inertial>
+    <mass value="1e-5" />
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+  </inertial>
+</link>
+
+<link name="camera_link_right">
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+  <box size="0.05 0.05 0.05"/>
+    </geometry>
+  </collision>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+  <box size="0.05 0.05 0.05"/>
+    </geometry>
+    <material name="red"/>
+  </visual>
+  <inertial>
+    <mass value="1e-5" />
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+  </inertial>
+</link>
+
 <joint name="S_LF" type="continuous">
   <origin xyz="0.391355 -0.383158 0.356565" rpy="0 0 0"/>
   <parent link="base_link"/>
@@ -359,6 +403,20 @@
   <parent link="base_link"/>
   <child link="Right_leg_double_1"/>
   <axis xyz="0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="camera_joint_left" type="fixed">
+  <axis xyz="0 1 0" />
+  <origin xyz="0.285 0.23 0.58" rpy="0 0 0.785"/>
+  <parent link="base_link"/>
+  <child link="camera_link_left"/>
+</joint>
+
+<joint name="camera_joint_right" type="fixed">
+  <axis xyz="0 1 0" />
+  <origin xyz="0.285 -0.23 0.58" rpy="0 0 -0.785"/>
+  <parent link="base_link"/>
+  <child link="camera_link_right"/>
 </joint>
 
 </robot>
